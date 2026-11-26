@@ -1,28 +1,13 @@
 {
   "release_mode": "public-results",
   "authorization": "APPROVED",
-  "version": "research-results-20261126-r2",
+  "version": "research-results-20261126-r3",
   "figure_count": 18,
   "files": [
     {
       "path": ".nojekyll",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "assets/saddle-data.js",
-      "bytes": 225,
-      "sha256": "7d9b3366b5bf38c1444966c61b48483a735e766c5b0c23572d232cdf6ba90cc8"
-    },
-    {
-      "path": "assets/saddle3d.js",
-      "bytes": 2159,
-      "sha256": "255bdd80f12306fdbf8f88dbb5214eb2ffd8169db85902678dbf63b646ea3a88"
-    },
-    {
-      "path": "assets/site.js",
-      "bytes": 2680,
-      "sha256": "3f3a6d1462d9867984dce52c05241c5e79b35db97cb76bf1220fb8068fe92d49"
     },
     {
       "path": "figures/png/fig1_methods.png",
@@ -256,23 +241,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 71211,
-      "sha256": "a23bc044606645b5bc6003234c76725f001c6f8d1e7b74e502a3285230a0688f"
+      "bytes": 86097,
+      "sha256": "702ea72bdef02d0f348df2c38900c0aa68d29777100f6fd8fe944d9f1c3fcab3"
     },
     {
       "path": "results.html",
-      "bytes": 71211,
-      "sha256": "a23bc044606645b5bc6003234c76725f001c6f8d1e7b74e502a3285230a0688f"
-    },
-    {
-      "path": "vendor/plotly-gl3d.min.js",
-      "bytes": 1695217,
-      "sha256": "79694da69e3ae5ef0dcaba96fd5b8fe00b03849388a658a4d2d4d7e978fd8757"
-    },
-    {
-      "path": "vendor/plotly-LICENSE.txt",
-      "bytes": 1078,
-      "sha256": "67a26cf80f03ff388f26945dfc1f6caed1a0746ff43871190339b3aee49b94bb"
+      "bytes": 86097,
+      "sha256": "702ea72bdef02d0f348df2c38900c0aa68d29777100f6fd8fe944d9f1c3fcab3"
     }
   ]
 }

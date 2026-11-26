@@ -1,0 +1,26 @@
+{
+  "release_mode": "empty",
+  "figure_count": 0,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/site.css",
+      "bytes": 1433,
+      "sha256": "2af2238d5e35257677d294c0d72f3f16ae0869dc95eea40961a7fb57379bd1bf"
+    },
+    {
+      "path": "index.html",
+      "bytes": 555,
+      "sha256": "b996f9e784f1e8837771697b77fcf6ae01fd7ad9c17fe88e808828be90c2628c"
+    },
+    {
+      "path": "results.html",
+      "bytes": 461,
+      "sha256": "81f22c5126631a45448adc562e655189cd89443b453f32e79f1713e44556c498"
+    }
+  ]
+}

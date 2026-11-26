@@ -42,17 +42,21 @@
     });
   }
   let loading = false;
+  let ready = false;
   interactive.addEventListener("toggle", async () => {
-    if (!interactive.open || loading) return;
+    if (!interactive.open || loading || ready) return;
     loading = true;
     const status = interactive.querySelector(".plot-status");
     status.textContent = "正在载入交互视图。";
     try {
-      await Promise.all(["vendor/plotly.min.js", "assets/saddle-data.js", "assets/saddle3d.js"].map(load));
+      await Promise.all(["vendor/plotly-gl3d.min.js", "assets/saddle-data.js", "assets/saddle3d.js"].map(load));
       await window.renderSaddle3D("saddle3d");
+      ready = true;
       status.remove();
     } catch (error) {
-      status.textContent = "交互视图暂未载入，上方静态截面可继续查看。";
+      status.textContent = "载入超时或失败。可查看上方静态截面，或收起此项后重新展开重试。";
+    } finally {
+      loading = false;
     }
   });
 })();
